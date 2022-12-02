@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;200;300;400;500;600;700&family=Yeseva+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/*navbar
+  .nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+    gap: 10px;
+  }
+  */
+
+  .hidden-spacer {
+    height: 56px
+}
+
+
+/*header*/
+.header {
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    position:relative;
+  }
+
+  .wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+
+.carousel-item{
+    height: 600px;
+}
+
+/*textos*/
+.quienes-somos-texto{
+    font-family: 'Yeseva One', cursive;
+}
+
+.destacados-texto{
+    font-family: 'Yeseva One', cursive;
+}
+
+.contacto-texto{
+    font-family: 'Yeseva One', cursive;
+}
+
+.text-justify{
+    text-align: justify;
+}
+
+.card-img-top{
+    height: 40%;
+    }
+
+.linea-divisoria{
+    
+}
+.final{
+    background-color: #3a3d6c;
+    padding: 40px 0;
+    text-align: center;
+    color: white;
+}
