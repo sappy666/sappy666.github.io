@@ -11,7 +11,8 @@
     <link rel="stylesheet" href="./assets/css/styles.css"> 
 </head>
 <body>
-  <div class="header"> 
+  <div class="header">
+    <!--BARRA DE NAVEGACION-->
     <nav class="navbar navbar-expand-sm fixed-top navbar-dark">
       <div class="container">
           <a class="navbar-brand" href="#">Viajes de Chile</a>
@@ -36,6 +37,7 @@
           </div>
       </div>
     </nav>
+    <!--CARRUSEL DE IMAGENES HEADER-->
     <section class="carrusel-header">
       <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
         <div class="carousel-inner">
@@ -69,6 +71,7 @@
     </div>  
   </div>
   <main>
+<!--SECCION QUIENES SOMOS-->    
     <section id="quienes-somos" class="container seccion d-none d-md-block">
       <h2 class="text-center quienes-somos-texto">Quienes somos</h2>
       <hr class="linea divisoria">
@@ -95,13 +98,15 @@
         </div>
       </div>
     </section>
-
+<!--SECCION DESTACADOS-->
     <section id="destacados" class="container seccion">
+      
       <div class="d-flex destacados-fade"> 
         <h2 class="text-center destacados-texto">Destacados</h2>
         <img src="./assets/img/flecha-hacia-abajo-para-navegar.png" width="16" height="16" class="ms-auto ">
       </div>
       <hr class="linea divisoria">
+      <!--cartas-->
       <div class="row row-cols-1 row-cols-md-4 g-4 py-5 cartas">
         <div class="col">
           <div class="card h-100 mx-5 mx-md-0">
@@ -149,24 +154,28 @@
         </div>
       </div>
     </section>
-
+<!--SECCION CONTACTO-->
     <section id="contacto" class="container seccion">
       <h2 class="text-center contacto-texto">Contacto</h2>
       <hr class="linea divisoria">
       <div class="mb-3 mt-5">
+        <!--Nombre-->
         <label for="exampleFormControlInput1" class="form-label">Nombre</label>
         <input type="email" class="form-control" id="exampleFormControlInput1">
       </div>
       <div class="mb-3">
+        <!--Asunto-->
         <label for="exampleFormControlInput1" class="form-label">Asunto</label>
         <input type="email" class="form-control" id="exampleFormControlInput1">
       </div>
       <div class="mb-3">
+        <!--Mensae-->
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
         <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
       </div>
       <div class="col-auto">
-        <button type="submit" class="btn btn-outline-dark mb-3">Enviar</button>
+        <!--Boton-->
+        <button type="submit" class="btn btn-outline-dark mb-3 " data-bs-toggle="tooltip" data-bs-placement="top" title="Apreta enviar para que nos comuniquemos contigo">Enviar</button>
       </div>      
     </section>
   </main>
@@ -193,7 +202,7 @@
       </div>
     </div>
   </footer>
-  <!-- JS -->
+  <!-- Javascript -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
   <script src="assets\js\index.js"></script>

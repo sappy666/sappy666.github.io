@@ -36,15 +36,7 @@ body{
 }
 
 /*textos*/
-.quienes-somos-texto{
-    font-family: 'Yeseva One', cursive;
-}
-
-.destacados-texto{
-    font-family: 'Yeseva One', cursive;
-}
-
-.contacto-texto{
+.quienes-somos-texto,.destacados-texto,.contacto-texto{
     font-family: 'Yeseva One', cursive;
 }
 
